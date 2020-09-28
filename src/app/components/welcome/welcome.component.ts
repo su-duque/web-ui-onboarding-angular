@@ -13,7 +13,7 @@ export class WelcomeComponent implements OnInit {
 
   addName(name, event): void {
     event.preventDefault();
-    console.log('name typped', name.value);
     this.nameAdded = name.value;
+    console.log('name saved', this.nameAdded);
   }
 }
