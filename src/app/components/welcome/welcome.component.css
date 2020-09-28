@@ -1,0 +1,24 @@
+.welcome{
+    background-color: black;
+    height: 100vmin;
+    justify-content: center;
+    text-align: center;
+   
+}   
+h1{
+    margin: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 7%;
+}
+img{
+    height: 50%;
+    width: 50%;
+    margin: 3%;
+}
+button{
+    background-color: plum;
+    border-color:  plum;
+    border-radius: 10%;
+
+}

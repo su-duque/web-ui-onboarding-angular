@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "web-ui-onboarding-angular"
+    }
+  },
+  "defaultProject": "web-ui-onboarding-angular",
+  "cli": {
+    "analytics": "6dad1897-4b49-4b58-bafb-7d8b2c04596e"
+  }
 }
