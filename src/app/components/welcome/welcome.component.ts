@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
@@ -14,6 +14,6 @@ export class WelcomeComponent implements OnInit {
   addName(name, event): void {
     event.preventDefault();
     console.log('name typped', name.value);
-    this.nameAdded = name.value;
+    name.value = '';
   }
 }
