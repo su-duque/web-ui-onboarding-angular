@@ -1,0 +1,14 @@
+<div class="welcome-container">
+  <h1>So excited to have you on board!</h1>
+  <img src="assets/images/welcome-image.png" alt="welcome-image" />
+  <form>
+    <input
+      class="input-name"
+      type="text"
+      placeholder="Your Name"
+      #nameAdded
+      value="{{ nameAdded.value }}"
+    />
+    <button (click)="addName(nameAdded, $event)">SAVE</button>
+  </form>
+</div>
