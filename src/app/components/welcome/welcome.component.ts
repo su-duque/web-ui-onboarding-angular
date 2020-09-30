@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -6,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./welcome.component.css'],
 })
 export class WelcomeComponent implements OnInit {
-  nameAdded = '';
-  constructor() {}
+  @Output() nameAdded = '';
+
+  constructor(private router: Router) {}
 
   ngOnInit(): void {}
 
@@ -16,5 +18,9 @@ export class WelcomeComponent implements OnInit {
     this.nameAdded = name.value;
     console.log('name saved', this.nameAdded);
     name.value = '';
+
+    this.router.navigate(
+      ['lets-imagine'], 
+      {state: {name: this.nameAdded}});
   }
 }

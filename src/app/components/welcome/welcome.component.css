@@ -35,14 +35,14 @@ button{
 	width: 70px;
 	height: 30px;
 }
-input:hover {
-    color: #a824a8;
-    background-color: white;
-}
 button:hover {
     color: plum;
     background-color: white;
 }
 button:focus {
     outline: none;
+}
+input:hover {
+    color: #a824a8;
+    background-color: white;
 }
