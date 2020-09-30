@@ -1,48 +1,56 @@
-.welcome-container{
-    background-color: black;
-    height: 100vmin;
-    justify-content: center;
-    text-align: center;
-}  
+.welcome-container {
+  background-color: black;
+  height: 100vmin;
+  justify-content: center;
+  text-align: center;
+}
+
 .input-name {
-    border-radius: 5px;
-    border: 1px solid gray;
-    outline: none;
-    width: 200px;
-    height: 25px;
-    margin-right: 10px;
-    text-align: center;
+  border-radius: 5px;
+  border: 1px solid gray;
+  outline: none;
+  width: 200px;
+  height: 25px;
+  margin-right: 10px;
+  text-align: center;
 }
-h1{
-    margin: 0px;
-    color: white;
-    text-align: center;
-    padding-top: 7%;
-    font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+
+h1 {
+  margin: 0px;
+  color: white;
+  text-align: center;
+  padding-top: 7%;
+  font-size: 50px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans";
 }
-img{
-    height: 50%;
-    width: 50%;
-    margin: 3%;
+
+img {
+  height: 50%;
+  width: 50%;
+  margin: 3%;
 }
-button{
-	color: white;
-	font-weight: bold;
-	background-color: plum;
-	border-radius: 10px;
-	border: 0;
-	width: 70px;
-	height: 30px;
+
+button {
+  color: white;
+  font-weight: bold;
+  background-color: plum;
+  border-radius: 10px;
+  border: 0;
+  width: 70px;
+  height: 30px;
 }
-input:hover {
-    color: #a824a8;
-    background-color: white;
-}
+
 button:hover {
-    color: plum;
-    background-color: white;
+  color: plum;
+  background-color: white;
 }
+
 button:focus {
-    outline: none;
+  outline: none;
+}
+
+input:hover {
+  color: #a824a8;
+  background-color: white;
 }
