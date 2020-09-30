@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./welcome.component.css'],
 })
 export class WelcomeComponent implements OnInit {
-  @Output() nameAdded = '';
+  nameAdded = '';
 
   constructor(private router: Router) {}
 
@@ -20,7 +20,7 @@ export class WelcomeComponent implements OnInit {
     name.value = '';
 
     this.router.navigate(
-      ['lets-imagine'], 
+      ['lets-imagine'],
       {state: {name: this.nameAdded}});
   }
 }
