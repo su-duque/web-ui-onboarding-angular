@@ -19,8 +19,22 @@ export class WelcomeComponent implements OnInit {
     console.log('name saved', this.nameAdded);
     name.value = '';
 
-    this.router.navigate(
-      ['lets-imagine'],
-      {state: {name: this.nameAdded}});
+    const hasNumber = /\d/;
+    const hasEspecialCharacter = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+
+    if (this.nameAdded !== '') {
+      if (
+        hasNumber.test(this.nameAdded) ||
+        hasEspecialCharacter.test(this.nameAdded)
+      ) {
+        window.alert('You have to write a real name');
+      } else {
+        this.router.navigate(['lets-imagine'], {
+          state: { name: this.nameAdded },
+        });
+      }
+    } else {
+      window.alert('You have to write a name first');
+    }
   }
 }
