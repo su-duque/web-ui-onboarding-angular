@@ -22,7 +22,6 @@ export class WelcomeComponent implements OnInit {
     const newUser: IUser = {
       name: name.value,
     };
-    console.log('name saved', newUser.name);
     name.value = '';
 
     const hasNumber = /\d/;
