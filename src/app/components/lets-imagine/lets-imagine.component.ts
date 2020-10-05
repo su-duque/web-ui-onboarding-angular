@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { UserManagerService } from '../../services/user-manager.service';
+import { IUser } from '../../models/user';
 
 @Component({
   selector: 'app-lets-imagine',
@@ -6,12 +8,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./lets-imagine.component.css']
 })
 export class LetsImagineComponent implements OnInit {
-  nameAdded = '';
+  userAdded: Array<IUser> = [];
 
-  constructor() { }
+  constructor(private userManagerService: UserManagerService) { }
 
   ngOnInit(): void {
-    this.nameAdded = history.state.name;
+    this.userAdded = this.userManagerService.getUserData();
   }
 
 }

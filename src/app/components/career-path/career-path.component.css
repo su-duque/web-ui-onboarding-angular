@@ -1,39 +1,47 @@
 .accordion-container {
-    margin-top: 10%;
+  margin-top: 5%;
+  margin-left: 50%;
+  margin-right: 10%;
 }
 
-.prueba{
-    background-color: white;
+mat-expansion-panel-header {
+  font-weight: 500;
+}
+
+.career-path_background {
+  background-size: contain;
+  background-color: white;
+  background-image: url(../../../assets/images/user-image.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
 .career-path_container {
-	background-color: white;
-	height: 75vmin;
-    background-size: 100% 100%;
-    margin-left: 10%;
-    margin-right: 10%;
-	display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 #accordion-1 {
-	color: #ed863a;
+  color: #ed863a;
 }
 
 #accordion-2 {
-	color: #bc57ff;
+  color: #9246c5;
 }
 
 #accordion-3 {
-	color: #6496fa;
+  color: #517cd1;
 }
 
 #accordion-4 {
-	color: #5bffe1;
+  color: #37c9ae;
 }
 
 li {
-	border-bottom: 1px #ccc dotted;
-	list-style: none;
-	padding-bottom: 2%;
+  border-bottom: 1px #ccc dotted;
+  list-style: none;
+  padding-bottom: 2%;
 }
