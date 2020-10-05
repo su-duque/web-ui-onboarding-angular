@@ -1,0 +1,39 @@
+.accordion-container {
+    margin-top: 10%;
+}
+
+.prueba{
+    background-color: white;
+}
+
+.career-path_container {
+	background-color: white;
+	height: 75vmin;
+    background-size: 100% 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+	display: flex;
+    justify-content: space-between;
+}
+
+#accordion-1 {
+	color: #ed863a;
+}
+
+#accordion-2 {
+	color: #bc57ff;
+}
+
+#accordion-3 {
+	color: #6496fa;
+}
+
+#accordion-4 {
+	color: #5bffe1;
+}
+
+li {
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	padding-bottom: 2%;
+}
