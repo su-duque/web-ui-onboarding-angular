@@ -6,16 +6,15 @@ import { IUser } from '../models/user';
   providedIn: 'root'
 })
 export class UserManagerService {
+  userData = new BehaviorSubject<IUser> ({name: ''});
 
-  userData = new BehaviorSubject<IUser[]> ([]);
+  constructor() {}
 
-  constructor() { }
-
-  getUserData(): IUser[]{
+  getUserData(): IUser{
     return this.userData.getValue();
   }
 
   setUserData(user): void {
-    this.userData.next([...this.userData.getValue(), user]);
+    this.userData.next(user);
   }
 }
