@@ -1,24 +1,31 @@
 <div class="triforce_letter_div">
-	<img src="assets/images/Globant-logo.png" alt="Globant Logo" class="globant-logo_img">
-	<h1>The Triforce</h1>
-	<p>The three aspect consist of the Studio, TDC and Accounts</p>
+  <img
+    src="assets/images/Globant-logo.png"
+    alt="Globant Logo"
+    class="globant-logo_img"
+  />
+  <h1>The Triforce</h1>
+  <p>The three aspect consist of the Studio, TDC and Accounts</p>
 </div>
 <div class="triforce_name_div">
-	<h2>{{ userAdded.name | titlecase }} you are here</h2>
+  <h2>{{ userAdded.name | titlecase }} you are here</h2>
 </div>
 
 <div class="triforce_container">
   <mat-tab-group mat-stretch-tabs class="mat-elevation-z1">
     <mat-tab label="Expertise">
-			<img src="assets/images/UI_Studio.png" alt="UI Studio">
-		</mat-tab>
+      <img src="assets/images/UI_Studio.png" alt="UI Studio" />
+    </mat-tab>
     <mat-tab label="Site">
-			<img src="assets/images/cope_image.PNG.png" alt="COPE">
-		</mat-tab>
+      <img src="assets/images/cope_image.PNG.png" alt="COPE" />
+    </mat-tab>
     <mat-tab label="Business">
-			<img src="assets/images/project_or_account.png" alt="Project or account">
-		</mat-tab>
+      <img
+        src="assets/images/project_or_account.png"
+        alt="Project or account"
+      />
+    </mat-tab>
   </mat-tab-group>
 </div>
 
-<app-footer [previousPath]="'career-path'" [nextPath]="''"></app-footer>
+<app-footer [previousPath]="'career-path'" [nextPath]="'values'"></app-footer>

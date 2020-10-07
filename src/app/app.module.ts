@@ -11,6 +11,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { LetsImagineComponent } from './components/lets-imagine/lets-imagine.component';
 import { CareerPathComponent } from './components/career-path/career-path.component';
 import { TriforceComponent } from './components/triforce/triforce.component';
+import { ValuesComponent } from './components/values/values.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { TriforceComponent } from './components/triforce/triforce.component';
     LetsImagineComponent,
     CareerPathComponent,
     TriforceComponent,
+    ValuesComponent,
   ],
   imports: [
     BrowserModule,
