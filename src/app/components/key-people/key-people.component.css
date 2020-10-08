@@ -1,4 +1,4 @@
-.triforce_letter_div {
+.people_letter_div {
 	padding: 2vw;
 	background-color: plum;
 	color: white;
@@ -9,7 +9,7 @@
 	width: 12%;
 }
 
-.triforce_name_div {
+.people-key_div {
 	text-align: center;
 	font-size: 30px;
 	background-color: #5c96be;
@@ -17,16 +17,10 @@
 	padding: 1vw;
 }
 
-.triforce_container {
-	padding: 0 20vw;
-}
-
-.mat-elevation-z1 {
-	box-shadow: none;
-}
-
-mat-tab-group {
-	align-items: center;
+.people-cards_container {
+	margin: 1vw;
+	display: inline-flex;
+	padding-left: 2.5vw;
 }
 
 h1 {
@@ -36,14 +30,9 @@ h1 {
 	padding-top: 1vw;
 }
 
-p {
+h4 {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
 	font-size: 2vw;
 	margin: 0;
-}
-
-h2 {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
-	text-align: center;
-	font-size: 2vw;
+	font-weight: bold;
 }
