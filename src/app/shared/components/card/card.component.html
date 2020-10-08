@@ -3,10 +3,7 @@
     <img mat-card-md-image src="{{people.peopleImage}}" alt="Photo of Glober" />
     <mat-card-subtitle>{{ people.peopleName }}</mat-card-subtitle>
     <mat-card-actions>
-      <a href="https://globant.slack.com/{{ people.slackId }}" target="_blank" class="card-link">{{ people.slack }}</a>
-    </mat-card-actions>
-    <mat-card-actions>
-      <a href="mailto:{{ people.email }}?Subject=Quisiera%20contactarte" class="card-link">Send email</a>
+      <a href="mailto:{{ people.email }}?Subject=Quisiera%20contactarte" class="card-link">{{people.slack}}</a>
     </mat-card-actions>
     <mat-card-title>{{ people.charge }}</mat-card-title>
   </mat-card>
