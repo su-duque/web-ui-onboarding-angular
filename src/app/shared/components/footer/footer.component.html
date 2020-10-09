@@ -1,4 +1,4 @@
 <footer class="footer">
   <button (click)="changePath(previousPath)">BACK</button>
-  <button (click)="changePath(nextPath)">NEXT</button>
+  <button *ngIf="isNextVisible" (click)="changePath(nextPath)">NEXT</button>
 </footer>

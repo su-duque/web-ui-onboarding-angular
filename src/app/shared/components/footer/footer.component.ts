@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class FooterComponent implements OnInit {
   @Input() previousPath: string;
   @Input() nextPath: string;
+  @Input() isNextVisible: boolean;
 
   constructor(private router: Router) {}
 
