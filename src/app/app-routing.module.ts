@@ -7,6 +7,7 @@ import { CareerPathComponent } from './components/career-path/career-path.compon
 import { TriforceComponent } from './components/triforce/triforce.component';
 import { ValuesComponent } from './components/values/values.component';
 import { KeyPeopleComponent } from './components/key-people/key-people.component';
+import { ReadyComponent } from './components/ready/ready.component';
 
 const routes: Routes = [
   { path: '', component: WelcomeComponent },
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'triforce', component: TriforceComponent },
   { path: 'values', component: ValuesComponent },
   { path: 'people', component: KeyPeopleComponent },
+  { path: 'ready', component: ReadyComponent },
 ];
 
 @NgModule({
