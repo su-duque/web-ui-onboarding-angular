@@ -1,0 +1,45 @@
+.triforce_letter_div {
+	padding: 2vw;
+	background-color: plum;
+	color: white;
+	padding-left: 15vw;
+}
+
+.globant-logo_img {
+	width: 200px;
+	height: 60px;
+}
+
+.triforce_name_div {
+	text-align: center;
+	font-size: 30px;
+	background-color: #5c96be;
+	color: white;
+	padding: 1vw;
+}
+
+.triforce_container {
+	padding: 0 20vw;
+}
+
+mat-tab-group {
+	align-items: center;
+}
+
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 1vw;
+}
+
+p {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+	font-size: 20px;
+}
+
+h2 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	text-align: center;
+	font-size: 30px;
+}

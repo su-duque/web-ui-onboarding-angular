@@ -1,13 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { UserManagerService } from '../../services/user-manager.service';
 import { IUser } from '../../models/user';
+import { UserManagerService } from '../../services/user-manager.service';
 
 @Component({
-  selector: 'app-lets-imagine',
-  templateUrl: './lets-imagine.component.html',
-  styleUrls: ['./lets-imagine.component.css']
+  selector: 'app-triforce',
+  templateUrl: './triforce.component.html',
+  styleUrls: ['./triforce.component.css']
 })
-export class LetsImagineComponent implements OnInit {
+export class TriforceComponent implements OnInit {
   userAdded: IUser;
 
   constructor(private userManagerService: UserManagerService) { }

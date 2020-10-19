@@ -1,7 +1,8 @@
-import { Component, OnInit, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { UserManagerService } from '../../services/user-manager.service';
 import { IUser } from '../../models/user';
+
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
