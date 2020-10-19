@@ -1,6 +1,7 @@
 import { Component, OnInit, Output } from '@angular/core';
 import { Router } from '@angular/router';
-
+import { UserManagerService } from '../../services/user-manager.service';
+import { IUser } from '../../models/user';
 @Component({
   selector: 'app-welcome',
   templateUrl: './welcome.component.html',
@@ -9,18 +10,35 @@ import { Router } from '@angular/router';
 export class WelcomeComponent implements OnInit {
   nameAdded = '';
 
-  constructor(private router: Router) {}
+  constructor(
+    private router: Router,
+    private userManagerService: UserManagerService
+  ) {}
 
   ngOnInit(): void {}
 
   addName(name, event): void {
     event.preventDefault();
-    this.nameAdded = name.value;
-    console.log('name saved', this.nameAdded);
+    const newUser: IUser = {
+      name: name.value,
+    };
     name.value = '';
 
-    this.router.navigate(
-      ['lets-imagine'],
-      {state: {name: this.nameAdded}});
+    const hasNumber = /\d/;
+    const hasEspecialCharacter = /[`!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?~]/;
+
+    if (newUser.name !== '') {
+      if (
+        hasNumber.test(newUser.name) ||
+        hasEspecialCharacter.test(newUser.name)
+      ) {
+        window.alert('You have to write a real name');
+      } else {
+        this.router.navigate(['lets-imagine']);
+        this.userManagerService.setUserData(newUser);
+      }
+    } else {
+      window.alert('You have to write a name first');
+    }
   }
 }

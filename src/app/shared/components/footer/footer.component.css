@@ -1,24 +1,28 @@
 .footer {
-	background-color: transparent;
-	display: flex;
-	justify-content: space-between;
-	padding: 0 10rem;
-	margin-top: 5rem;
+  background-color: transparent;
+  padding-bottom: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  margin: 4rem 0;
+  width: 100%;
 }
 
-button{
-	color: white;
-	font-weight: bold;
-	background-color: plum;
-	border-radius: 10px;
-	border: 0;
-	width: 70px;
-	height: 30px;
+button {
+  color: white;
+  font-weight: bold;
+  background-color: plum;
+  border-radius: 10px;
+  border: 0;
+  width: 70px;
+  height: 30px;
 }
 
 button:hover {
   color: plum;
   background-color: white;
+  border: 1px solid plum;
 }
 
 button:focus {
