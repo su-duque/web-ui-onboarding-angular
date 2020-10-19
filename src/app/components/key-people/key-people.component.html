@@ -13,5 +13,5 @@
   <div *ngFor="let people of KeyPeople" class="people-cards_container">
     <app-card [people]="people"></app-card>
   </div>
-  <app-footer [previousPath]="'values'" [nextPath]="'ready'"></app-footer>
+  <app-footer [isNextVisible]="true" [previousPath]="'values'" [nextPath]="'ready'"></app-footer>
 </div>

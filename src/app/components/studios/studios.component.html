@@ -1,0 +1,43 @@
+<div class="studios_container">
+	<div class="studios_letter_div">
+		<img
+			src="assets/images/Globant-logo.png"
+			alt="Globant Logo"
+			class="globant-logo_img"
+		/>
+		<h1>Classes - Studios</h1>
+	</div>
+	
+	<div class="studios-carousel_container">
+		<mdb-carousel class="carousel slide carousel-fade" [animation]="'fade'">
+			<mdb-carousel-item>
+				<div class="view w-100">
+					<img class="d-block w-100" src="/assets/images/classes-studios/strategic_classes_studios.svg" alt="First slide">
+					<div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+				</div>
+				<div class="carousel-caption">
+					<h2 class="h2-responsive">STRATEGIC</h2>
+				</div>
+			</mdb-carousel-item>
+			<mdb-carousel-item>
+				<div class="view w-100">
+					<img class="d-block w-100" src="/assets/images/classes-studios/specialty_classes_studios.svg" alt="Second slide">
+					<div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+				</div>
+				<div class="carousel-caption">
+					<h2 class="h2-responsive">SPECIALTY</h2>
+				</div>
+			</mdb-carousel-item>
+			<mdb-carousel-item>
+				<div class="view w-100">
+					<img class="d-block w-100" src="/assets/images/classes-studios/foundation_classes_studios.svg" alt="Third slide">
+					<div class="mask rgba-black-slight waves-light" mdbWavesEffect></div>
+				</div>
+				<div class="carousel-caption">
+					<h2 class="h2-responsive">FOUNDATION</h2>
+				</div>
+			</mdb-carousel-item>
+		</mdb-carousel>
+	</div>
+	<app-footer [isNextVisible]="true" [previousPath]="'lets-imagine'" [nextPath]="'career-path'"></app-footer>
+</div>

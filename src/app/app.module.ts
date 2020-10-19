@@ -4,6 +4,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatTabsModule } from '@angular/material/tabs';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 import { AppComponent } from './app.component';
 import { SharedModule } from './shared/components/shared.module';
@@ -14,6 +15,7 @@ import { TriforceComponent } from './components/triforce/triforce.component';
 import { ValuesComponent } from './components/values/values.component';
 import { KeyPeopleComponent } from './components/key-people/key-people.component';
 import { ReadyComponent } from './components/ready/ready.component';
+import { StudiosComponent } from './components/studios/studios.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +27,7 @@ import { ReadyComponent } from './components/ready/ready.component';
     ValuesComponent,
     KeyPeopleComponent,
     ReadyComponent,
+    StudiosComponent,
   ],
   imports: [
     BrowserModule,
@@ -33,6 +36,7 @@ import { ReadyComponent } from './components/ready/ready.component';
     MatExpansionModule,
     MatTabsModule,
     SharedModule,
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent],

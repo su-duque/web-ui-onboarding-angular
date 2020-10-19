@@ -1,0 +1,29 @@
+.studios_letter_div {
+	padding: 1vw;
+	background-color: transparent;
+	color: #bfd732;
+	padding-left: 20vw;
+}
+
+.globant-logo_img {
+	width: 12%;
+}
+
+h1 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	font-weight: bold;
+	font-size: 3vw;
+	padding-top: 1vw;
+}
+
+.studios-carousel_container {
+	width: 60vw;
+	margin: auto;
+}
+
+.h2-responsive {
+	color: #bfd732;
+	font-weight: bold;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+	font-size: 3vw;
+}
