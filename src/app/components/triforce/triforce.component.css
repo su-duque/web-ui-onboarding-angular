@@ -6,8 +6,7 @@
 }
 
 .globant-logo_img {
-	width: 200px;
-	height: 60px;
+	width: 12%;
 }
 
 .triforce_name_div {
@@ -29,17 +28,20 @@ mat-tab-group {
 h1 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 	font-weight: bold;
-	font-size: 40px;
+	font-size: 3vw;
 	padding-top: 1vw;
+	margin: 0;
 }
 
 p {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-	font-size: 20px;
+	font-size: 2vw;
+	margin: 0;
 }
 
 h2 {
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 	text-align: center;
-	font-size: 30px;
+	font-size: 2vw;
+	margin: 0;
 }
