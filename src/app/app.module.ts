@@ -13,6 +13,7 @@ import { CareerPathComponent } from './components/career-path/career-path.compon
 import { TriforceComponent } from './components/triforce/triforce.component';
 import { ValuesComponent } from './components/values/values.component';
 import { KeyPeopleComponent } from './components/key-people/key-people.component';
+import { ReadyComponent } from './components/ready/ready.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { KeyPeopleComponent } from './components/key-people/key-people.component
     TriforceComponent,
     ValuesComponent,
     KeyPeopleComponent,
+    ReadyComponent,
   ],
   imports: [
     BrowserModule,
