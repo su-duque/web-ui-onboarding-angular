@@ -1,0 +1,43 @@
+.card-container {
+	margin-top: 2vw;
+	width: 15vw;
+	text-align: center;
+}
+
+.mat-card {
+	padding: 1vw;
+	color: #5c96be;
+}
+
+.mat-card-subtitle:not(:first-child) {
+	margin-top: 1vw;
+
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+	font-weight: bold;
+	font-size: 18px;
+	color:  #5c96be;
+}
+
+.mat-card-actions {
+	padding: 0;
+}
+
+.card-link {
+	text-decoration: none;
+	color: #5d0895;
+}
+
+.card-link:hover {
+	color: #bfd732;
+}
+
+.mat-card:not([class*=mat-elevation-z]) {
+	box-shadow: none;
+}
+
+img {
+	border-radius: 50%;
+	border: 4px #620895 solid;
+	/* box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5); */
+	box-shadow: 0px 0px 30px 0px #5c96be;
+}

@@ -1,0 +1,18 @@
+<div>
+  <div class="people_letter_div">
+    <img
+      src="assets/images/Globant-logo.png"
+      alt="Globant Logo"
+      class="globant-logo_img"
+    />
+    <h1>UI Studio COPE</h1>
+  </div>
+  <div class="people-key_div">
+    <h4>Key People</h4>
+  </div>
+  <div *ngFor="let people of KeyPeople" class="people-cards_container">
+    <app-card [people]="people"></app-card>
+  </div>
+  <app-footer [previousPath]="'values'" [nextPath]="''"></app-footer>
+
+</div>

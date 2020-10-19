@@ -1,4 +1,21 @@
-.accordion-container {
+.values_background {
+  background-size: contain;
+  background-color: white;
+  background-image: url(../../../assets/images/values-background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.values_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  padding-top: 5vw;
+}
+
+.values-accordion-container {
     margin-top: 5%;
     margin-left: 50%;
   }
@@ -7,36 +24,19 @@
     font-weight: 500;
   }
   
-  .career-path_background {
-    background-size: contain;
-    background-color: white;
-    background-image: url(../../../assets/images/values-background.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
+  #values-accordion-1, #values-accordion-2, #values-accordion-3, #values-accordion-4{
+    color:#5c0794;
   }
   
-  .career-path_container {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding-top: 5vw;
-  }
-
-  #accordion-1, #accordion-2, #accordion-3, #accordion-4{
-    color:#AC3CFB;
-  }
-  
-  #accordion-1 strong, #accordion-2 strong{
+  #values-accordion-1 strong, #values-accordion-2 strong{
     color: #E9188F;
   }
   
-  #accordion-3 strong{
+  #values-accordion-3 strong{
     color: #ed863a
   }
   
-  #accordion-4 strong{
+  #values-accordion-4 strong{
     color: #37c9ae;
   }
   
